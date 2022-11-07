@@ -1,0 +1,50 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 300;
+    line-height: 1.4;
+    color: bisque;
+    margin: auto;
+    background-color: rgb(94, 103, 119);
+    background-position: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+h1{
+    font-weight: 350;
+    line-height: 1.2;
+}
+p{
+    font-size: 1rem;
+}
+h1,p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+label{
+    display: flex;
+    align-items: center;
+    font: 1rem;
+    margin-bottom: 0.2rem;
+}
+input,
+button,
+select,
+textarea{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button{
+    border: aquamarine;
+}
+form{
+    background-color: rgb(99, 104, 99);
+    padding: 2rem 0.5rem;
+    border-radius: 0.25rem;
+}
